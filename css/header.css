@@ -1,0 +1,48 @@
+#header {
+    max-height: 80px;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+
+#header .container .row .logo{
+    float: left;
+    max-width: 21%;
+    margin-top: 20px;
+}
+
+
+#header .container .header-menu{
+    padding: 15px 50px 0 0;
+}
+
+#header .container .header-menu > ul > li{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    float: right;
+    display: block;
+    padding: 10px 12px 20px 12px;
+}
+
+#header .container .row .header-badges{
+    float: right;
+    padding-top: 20px;
+    max-width: 100%;
+
+}
+
+#header .container .row .header-badges > figure{
+    padding-right: 13px;
+    float: left;
+
+}
+
+#header .container .row .header-badges > figure > img{
+    padding-right: 13px;
+    width: 135px;
+    height: 40px;
+    float: left;
+}
