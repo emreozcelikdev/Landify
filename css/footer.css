@@ -32,6 +32,11 @@
     font-weight: 400;
 }
 
+#footer .container .row .footer-logo{
+    align-items: center;
+    justify-content: center;
+}
+
 #footer .container .row .footer-logo > p{
     color: rgba(209, 213, 219, 1);
     font-weight: 500;

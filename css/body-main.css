@@ -23,9 +23,15 @@
         max-width: 100%;
         width: 100%;
     }
+
+    #main .centerfix-3 .container .row .quote-title > h3{
+        padding-left: 0;
+    }
+
 }
 
-@media only screen and (max-width: 1140px) {
+
+@media only screen and (min-width: 1200px) {
 
     #main .centerfix-3 .container .row .quote-air {
         padding: 50px 50px 50px 15px;
@@ -48,10 +54,15 @@
         width: 100%;
     }
 
+    #main .centerfix-3 .container .row .quote-title > h3{
+        padding-left: 0;
+    }
+
 }
 
 
-@media only screen and (max-width: 960px) {
+
+@media only screen and (max-width: 992px) {
     
     #header .container .row .header-badges{
         display: flex;
@@ -61,6 +72,10 @@
     #main .centerfix{
         padding-top: 0;
         margin-bottom: 10px;
+    }
+
+    #main .centerfix .container .row > img{
+        height: 1024px;
     }
 
     #main .centerfix .container .row .text-1{
@@ -82,7 +97,7 @@
     }
 
     #main .centerfix .container .row .picture-phone{
-        padding-top: 10px;
+        padding-top: 90px;
         text-align: center;
     }
     
@@ -158,10 +173,89 @@
     #main .centerfix-3 .container .row .quote-str .quote-str-cell {
         background-color: rgba(255, 255, 255, 1);
         float: left;
-        /* max-width: 384px; */
         border-radius: 8px;
         max-width: 100%;
         width: 100%;
     }
 
+    #footer{
+        max-height: 100%;
+        padding-left: 60px;
+    }
 }
+
+@media only screen and (min-width: 992px) {
+    #footer{
+        max-height: 100%;
+        padding-left: 40px;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    #footer .container .row .footer-logo{
+        padding-top: 30px;
+        align-items:flex-start;
+        justify-content:left;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    
+    #main .centerfix .container .row .text-1 > h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    #main .centerfix .container .row .picture-phone{
+        padding-top: 50px;
+    }
+
+    #main .centerfix-2 .features {
+        padding: 50px 8% 0;
+    }
+
+    #main .centerfix-2 .content .content-cell {
+        padding: 25px 15%;
+    }
+
+
+    #main .centerfix-2 .content .content-cell > h4{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    #main .centerfix-3 {
+        padding-right: 20px;
+    }
+
+    #main .centerfix-3 .quote-icon {
+        max-height: 78px;
+        padding-left: 20px;
+    }
+
+    #main .centerfix-3 .container .row .quote-title > h3{
+        padding-top: 100px;
+    }
+
+    #footer{
+        max-height: 100%;
+    }
+
+    #footer .container .row .footer-logo{
+        padding-top: 30px;
+        align-items:flex-start;
+        justify-content:left;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    #footer{
+        padding-left: 40px;
+    }
+}
+
