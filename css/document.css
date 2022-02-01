@@ -30,11 +30,13 @@ html{
 #main .centerfix .container .row .text-1 > h2{
     font-size: 60px;
     line-height: 72px;
+    font-weight: 700;
 }
 
 #main .centerfix .container .row .text-1 > p{
     font-size: 18px;
     line-height: 28px;
+    font-weight: 400;
     padding: 16px 0;
 }
 
@@ -106,7 +108,7 @@ html{
 
 #main .centerfix-2{
     position: relative;
-    padding-top: 100px;
+    padding: 50px 0;
 }
 
 #main .centerfix-2 .features{
@@ -119,16 +121,18 @@ html{
 }
 
 
-
 #main .centerfix-2 .features > h3{
     font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
     margin-bottom: 8px;
-
 }
 
 #main .centerfix-2 .features > p {
-    margin-top: 8px;
     font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 8px;
 }
 
 #main .centerfix-2 .content{
@@ -138,10 +142,23 @@ html{
 #main .centerfix-2 .content .content-cell{
     float: left;
     text-align: center;
-    margin: 0;
     padding: 34px 45px 20px 45px;
     margin: 10px 0;
 }
+
+#main .centerfix-2 .content .content-cell > h4{
+    padding: 10px 0;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+#main .centerfix-2 .content .content-cell > p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
 
 /* -- Dördüncü Bölüm -- */
 
@@ -156,7 +173,7 @@ html{
     position: absolute;
     padding-left: 0;
     margin-top: 64px;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 #main .centerfix-3 .container .row .quote-title{
@@ -164,18 +181,20 @@ html{
 }
 
 #main .centerfix-3 .container .row .quote-title > h3{
+    position: relative;
     padding-top: 120px;
     padding-left: 100px;
     font-size: 48px;
     line-height: 60px;
-    position: relative;
+    font-weight: 700;
 }
 
 #main .centerfix-3 .container .row .quote-title > p{
+    position: relative;
     padding-left: 100px;
     font-size: 18px;
     line-height: 28px;
-    position: relative;
+    font-weight: 400;
 }
 
 #main .centerfix-3 .container .row .quote-hub{
@@ -214,15 +233,6 @@ html{
 }
 
 
-
-
-
-
-
-
-
-
-
 #main .centerfix-3 .container .row .logo-cell{
     padding: 15px 15px;
 }
@@ -243,7 +253,7 @@ html{
 }
 
 #main .centerfix-3 .container .row .quote-cell ~ .name{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
     line-height: 28px;
     display: block;
@@ -258,3 +268,12 @@ html{
     line-height: 20px;
     color: rgba(107, 114, 128, 1);
 }
+
+
+/*
+
+
+#main .centerfix-3 .container .row .quote-air {
+    padding: 50px 0 10px 50px;
+
+ */

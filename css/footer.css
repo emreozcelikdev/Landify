@@ -14,8 +14,9 @@
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 400;
     display: block;
-    padding: 10px 12px;
+    padding: 10px 12px 10px 0;
 }
 
 #footer .container .row .footer-menu .first-list, #footer .container .row .footer-menu .second-list{
@@ -25,18 +26,17 @@
 }
 
 #footer .container .row .footer-menu > p{
-    color: #FFFFFF;
+    color:rgba(209, 213, 219, 1);
     font-size: 14px;
     line-height: 20px;
-    padding-left: 10px;
+    font-weight: 400;
 }
 
 #footer .container .row .footer-logo > p{
-    color: #FFFFFF;
+    color: rgba(209, 213, 219, 1);
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    
 }
 
 #footer .container .row .footer-badges{

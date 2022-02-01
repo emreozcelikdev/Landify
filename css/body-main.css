@@ -1,0 +1,167 @@
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    #main .centerfix-3 .container .row .quote-air {
+        padding: 50px 50px 50px 15px;
+    }
+    
+    #main .centerfix-3 .container .row .quote-hub {
+        padding: 18px 1px 0 1px;
+    }
+
+    #main .centerfix-3 .container .row .quote-hub .quote-hub-cell {
+        margin-left: 0;
+    }
+
+    #main .centerfix-3 .container .row .quote-str {
+        margin: 50px 0 0 0;
+    }
+
+    #main .centerfix-3 .container .row .quote-str .quote-str-cell {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+
+    #main .centerfix-3 .container .row .quote-air {
+        padding: 50px 50px 50px 15px;
+    }
+    
+    #main .centerfix-3 .container .row .quote-hub {
+        padding: 18px 1px 0 1px;
+    }
+
+    #main .centerfix-3 .container .row .quote-hub .quote-hub-cell {
+        margin-left: 0;
+    }
+
+    #main .centerfix-3 .container .row .quote-str {
+        margin: 50px 0 0 0;
+    }
+
+    #main .centerfix-3 .container .row .quote-str .quote-str-cell {
+        max-width: 100%;
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 960px) {
+    
+    #header .container .row .header-badges{
+        display: flex;
+        position: relative;
+    }
+
+    #main .centerfix{
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+
+    #main .centerfix .container .row .text-1{
+        padding-top: 120px;
+        padding-right: 0;
+    }
+
+    #main .centerfix .container .row .text-1 > h2 {
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: 700;
+    }
+
+    #main .centerfix .container .row .text-1 > p{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        padding: 16px 0;
+    }
+
+    #main .centerfix .container .row .picture-phone{
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    #main .centerfix .container .row .picture-phone > img{
+        float: none;
+    }
+
+    #main .centerfix-2{
+        padding-top: 70px;
+    }
+
+    #main .centerfix-2 .features {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    #main .centerfix-2 .features > h3{
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    #main .centerfix-2 .content .content-cell > h4{
+        padding: 10px 0;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    #main .centerfix-2 .content .content-cell {
+        padding: 34px 5% 20px;
+    }
+
+    #main .centerfix-3{
+    padding-bottom: 50px;
+    }
+
+    #main .centerfix-3 .container .row .quote-hub{
+        padding: 18px 1px 0 5px;
+    }
+    
+
+    #main .centerfix-3 .container .row .quote-hub .quote-hub-cell {
+        max-height: 396px;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    #main .centerfix-3 .container .row .quote-air {
+        padding: 50px 0 10px 50px;
+    }
+
+    #main .centerfix-3 .container .row .quote-title {
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    #main .centerfix-3 .container .row .quote-title > h3{
+        padding-left: 50px;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    #main .centerfix-3 .container .row .quote-title > p{
+        padding-left: 50px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #main .centerfix-3 .container .row .quote-str {
+        margin: 50px 0 ;
+    }
+
+    #main .centerfix-3 .container .row .quote-str .quote-str-cell {
+        background-color: rgba(255, 255, 255, 1);
+        float: left;
+        /* max-width: 384px; */
+        border-radius: 8px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+}
