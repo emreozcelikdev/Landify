@@ -20,11 +20,16 @@
 
 #header .container .header-menu > ul > li{
     font-size: 14px;
-    font-weight: 600;
     line-height: 20px;
+    font-weight: 600;
     float: right;
     display: block;
     padding: 10px 12px 20px 12px;
+}
+
+#header .container .header-menu > ul a{
+    color: rgba(17, 24, 39, 1);
+    text-decoration: none;
 }
 
 #header .container .row .header-badges{
