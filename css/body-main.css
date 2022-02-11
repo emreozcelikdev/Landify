@@ -25,9 +25,13 @@
         padding-left: 0;
     }
 
+    #main .centerfix-3 .container .row .quote-title > p {
+        padding-left: 0;
+    }
+
 }
 
-
+/*
 @media only screen and (min-width: 1200px) {
 
     #main .centerfix-3 .container .row .quote-air {
@@ -56,7 +60,7 @@
     }
 
 }
-
+*/
 
 
 @media only screen and (max-width: 992px) {
@@ -201,6 +205,14 @@
 }
 
 @media only screen and (max-width: 576px) {
+
+    #header .container .row .header-badges > a >img{
+        margin-right: 20px;
+    }
+
+    #main .centerfix .container .row .text-1 {
+        padding: 120px 30px 30px;
+    }
     
     #main .centerfix .container .row .text-1 > h2 {
         font-size: 36px;
